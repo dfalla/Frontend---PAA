@@ -1,0 +1,32 @@
+.boton{
+    margin-right: 5px;
+}
+
+.cantidad{
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.card-style {
+    width: 250px;
+    margin: auto;
+}
+
+.card-body-style{
+    margin: auto;
+}
+
+h5, p{
+    text-align: center;
+}
+
+.imagen-style {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
