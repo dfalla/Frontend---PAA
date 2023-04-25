@@ -4,7 +4,7 @@ import { getEnvVariables } from '../../helpers';
 const { VITE_API_URL } = getEnvVariables();
 
 const api = Axios.create({
-    baseURL: VITE_API_URL
+    baseURL: "http://localhost:4001/api"
 });
 
 api.interceptors.request.use(config => {
